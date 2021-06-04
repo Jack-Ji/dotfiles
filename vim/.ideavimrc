@@ -1,0 +1,23 @@
+" basic settings
+filetype plugin indent on
+syntax on
+set nocompatible
+set number
+set laststatus=2
+set incsearch
+set hlsearch
+set hidden
+
+" tab settings
+set expandtab
+set tabstop=2
+set shiftwidth=2
+
+" c/c++ language auto-indent settings
+set autoindent
+set cinoptions+=:0,g0,N-s
+
+" return to normal mode more naturaly
+inoremap jk <esc>
+inoremap <esc> <nop>
+

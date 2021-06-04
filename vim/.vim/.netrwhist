@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/jack/Workspace/auds/repo/demo/src/CMake'
+let g:netrw_dirhist_2='/Users/jack/Workspace/auds/repo/EGXmqs/src/include/platform/windows'
+let g:netrw_dirhist_3='/Users/jack/Workspace/auds/repo/demo/src/CMake'

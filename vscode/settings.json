@@ -1,0 +1,37 @@
+{
+    "editor.fontSize": 15,
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [ "j", "k" ],
+            "after": [ "<Esc>" ]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-a>": false
+    },
+    "editor.fontFamily": "source code pro",
+    "go.delveConfig": {
+        "dlvLoadConfig": {
+            "followPointers": true,
+            "maxVariableRecurse": 1,
+            "maxStringLen": 256,
+            "maxArrayValues": 64,
+            "maxStructFields": -1
+        }
+    },
+    "window.zoomLevel": 0,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "go.useLanguageServer": true,
+    "debug.allowBreakpointsEverywhere": true
+}
