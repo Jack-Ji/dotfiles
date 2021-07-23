@@ -7,7 +7,6 @@ set laststatus=2
 set incsearch
 set hlsearch
 set hidden
-colorscheme murphy
 
 " return to normal mode more naturaly
 inoremap jk <esc>
@@ -25,6 +24,7 @@ set cinoptions+=:0,g0,N-s
 filetype off
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'                  " plugin manager
+Plugin 'morhetz/gruvbox'                    " colorscheme
 Plugin 'drawit'                             " ascii art tool
 Plugin 'vim-airline/vim-airline'            " fabulous status bar
 Plugin 'ctrlpvim/ctrlp.vim'                 " easy file finding
@@ -37,9 +37,11 @@ Plugin 'vim-javascript'                     " js support
 Plugin 'fatih/vim-go'                       " go support
 Plugin 'tikhomirov/vim-glsl'                " glsl support
 Plugin 'neoclide/coc.nvim'                  " VSCode-like auto-completion using LSP
-
 call vundle#end()
 filetype plugin indent on
+
+" customized colorscheme
+colorscheme gruvbox
 
 " ctrlp settings
 let g:ctrlp_map = '<c-p>'
@@ -52,3 +54,5 @@ let g:ctrlp_custom_ignore = {
 " coc related settings
 source $HOME/.vim/coc-settings.vim
 
+" keyboard mappings for vim-go command
+au FileType go nmap <leader>r <Plug>(go-run)
