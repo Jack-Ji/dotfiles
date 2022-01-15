@@ -1,3 +1,18 @@
+" import plugings
+call plug#begin('~/.vim/plugged')
+Plug 'morhetz/gruvbox'                    " colorscheme
+Plug 'vim-airline/vim-airline'            " fabulous status bar
+Plug 'ctrlpvim/ctrlp.vim'                 " easy file finding
+Plug 'scrooloose/nerdtree'                " nerd tree
+Plug 'majutsushi/tagbar'                  " tagbar
+Plug 'tpope/vim-fugitive'                 " git command wrapper
+Plug 'rust-lang/rust.vim'                 " rust support
+Plug 'ziglang/zig.vim'                    " zig support
+Plug 'fatih/vim-go'                       " go support
+Plug 'tikhomirov/vim-glsl'                " glsl support
+Plug 'neoclide/coc.nvim'                  " VSCode-like auto-completion using LSP
+call plug#end()
+
 " basic settings
 filetype plugin indent on
 syntax on
@@ -19,26 +34,6 @@ set shiftwidth=2
 " c/c++ language auto-indent settings
 set autoindent
 set cinoptions+=:0,g0,N-s
-
-" vundle settings
-filetype off
-call vundle#begin()
-Plugin 'gmarik/Vundle.vim'                  " plugin manager
-Plugin 'morhetz/gruvbox'                    " colorscheme
-Plugin 'drawit'                             " ascii art tool
-Plugin 'vim-airline/vim-airline'            " fabulous status bar
-Plugin 'ctrlpvim/ctrlp.vim'                 " easy file finding
-Plugin 'scrooloose/nerdtree'                " nerd tree
-Plugin 'majutsushi/tagbar'                  " tagbar
-Plugin 'tpope/vim-fugitive'                 " git command wrapper
-Plugin 'rust-lang/rust.vim'                 " rust support
-Plugin 'ziglang/zig.vim'                    " zig support
-Plugin 'vim-javascript'                     " js support
-Plugin 'fatih/vim-go'                       " go support
-Plugin 'tikhomirov/vim-glsl'                " glsl support
-Plugin 'neoclide/coc.nvim'                  " VSCode-like auto-completion using LSP
-call vundle#end()
-filetype plugin indent on
 
 " customized colorscheme
 colorscheme gruvbox
