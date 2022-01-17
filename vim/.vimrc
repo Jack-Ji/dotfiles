@@ -11,6 +11,7 @@ Plug 'ziglang/zig.vim'                    " zig support
 Plug 'fatih/vim-go'                       " go support
 Plug 'tikhomirov/vim-glsl'                " glsl support
 Plug 'neoclide/coc.nvim'                  " VSCode-like auto-completion using LSP
+Plug 'skanehira/vsession'                 " Session manager
 call plug#end()
 
 " basic settings
