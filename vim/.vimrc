@@ -52,3 +52,15 @@ source $HOME/.vim/coc-settings.vim
 
 " keyboard mappings for vim-go command
 au FileType go nmap <leader>r <Plug>(go-run)
+
+" avoid freezing the vim process forever, see
+" https://github.com/neovim/neovim/issues/6660
+if has("win32") && has("nvim")
+  nnoremap <C-z> <nop>
+  inoremap <C-z> <nop>
+  vnoremap <C-z> <nop>
+  snoremap <C-z> <nop>
+  xnoremap <C-z> <nop>
+  cnoremap <C-z> <nop>
+  onoremap <C-z> <nop>
+endif
