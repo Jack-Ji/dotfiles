@@ -10,6 +10,7 @@ Plug 'rust-lang/rust.vim'                       " rust support
 Plug 'ziglang/zig.vim'                          " zig support
 Plug 'fatih/vim-go'                             " go support
 Plug 'tikhomirov/vim-glsl'                      " glsl support
+Plug 'isobit/vim-caddyfile'                     " caddyfile support
 Plug 'neoclide/coc.nvim', {'branch':'release'}  " vscode-like auto-completion using LSP
 Plug 'skanehira/vsession'                       " session manager
 call plug#end()
