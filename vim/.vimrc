@@ -6,10 +6,11 @@ Plug 'ctrlpvim/ctrlp.vim'                       " easy file finding
 Plug 'scrooloose/nerdtree'                      " nerd tree
 Plug 'majutsushi/tagbar'                        " tagbar
 Plug 'tpope/vim-fugitive'                       " git command wrapper
-Plug 'rust-lang/rust.vim'                       " rust support
-Plug 'ziglang/zig.vim'                          " zig support
-Plug 'fatih/vim-go'                             " go support
-Plug 'tikhomirov/vim-glsl'                      " glsl support
+Plug 'rust-lang/rust.vim'                       " rust language support
+Plug 'ziglang/zig.vim'                          " zig language support
+Plug 'fatih/vim-go'                             " go language support
+Plug 'tikhomirov/vim-glsl'                      " glsl language support
+Plug 'elmcast/elm-vim'                          " elm language support
 Plug 'isobit/vim-caddyfile'                     " caddyfile support
 Plug 'neoclide/coc.nvim', {'branch':'release'}  " vscode-like auto-completion using LSP
 Plug 'skanehira/vsession'                       " session manager
