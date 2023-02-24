@@ -11,7 +11,6 @@ Plug 'ziglang/zig.vim'                          " zig language support
 Plug 'fatih/vim-go'                             " go language support
 Plug 'tikhomirov/vim-glsl'                      " glsl language support
 Plug 'elmcast/elm-vim'                          " elm language support
-Plug 'isobit/vim-caddyfile'                     " caddyfile support
 Plug 'neoclide/coc.nvim', {'branch':'release'}  " vscode-like auto-completion using LSP
 Plug 'skanehira/vsession'                       " session manager
 call plug#end()
