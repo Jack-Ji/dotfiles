@@ -10,6 +10,7 @@ Plug 'rust-lang/rust.vim'                       " rust language support
 Plug 'ziglang/zig.vim'                          " zig language support
 Plug 'fatih/vim-go'                             " go language support
 Plug 'tikhomirov/vim-glsl'                      " glsl language support
+Plug 'jcorbin/vim-lobster'                      " lobster language support
 Plug 'neoclide/coc.nvim', {'branch':'release'}  " vscode-like auto-completion using LSP
 Plug 'skanehira/vsession'                       " session manager
 call plug#end()
@@ -29,8 +30,8 @@ inoremap jk <esc>
 
 " tab settings
 set expandtab
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 
 " c/c++ language auto-indent settings
 set autoindent
