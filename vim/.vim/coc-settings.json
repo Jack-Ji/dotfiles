@@ -1,19 +1,16 @@
 {
+    "inlayHint.enable": true,
+    "semanticTokens.enable": true,
     "languageserver": {
         "zls" : {
             "command": "zls",
-            "filetypes": ["zig"]
+            "filetypes": [ "zig", "zon" ]
         },
         "go": {
             "command": "gopls",
             "rootPatterns": ["go.mod"],
             "trace.server": "verbose",
             "filetypes": ["go"]
-        },
-        "odin": {
-            "command": "ols",
-            "filetypes": ["odin"],
-            "rootPatterns": ["ols.json"]
         }
     }
 }
