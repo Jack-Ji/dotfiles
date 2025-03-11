@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 15,
+    "editor.fontSize": 18,
     "vim.easymotion": true,
     "vim.sneak": true,
     "vim.incsearch": true,
@@ -8,12 +8,19 @@
     "vim.hlsearch": true,
     "vim.insertModeKeyBindings": [
         {
-            "before": [ "j", "k" ],
-            "after": [ "<Esc>" ]
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         }
     ],
     "vim.handleKeys": {
-        "<C-a>": false
+        "<C-a>": false,
+        "<C-p>": false,
+        "<C-n>": false,
     },
     "editor.fontFamily": "source code pro",
     "go.delveConfig": {
@@ -33,5 +40,8 @@
         "**/.factorypath": true
     },
     "go.useLanguageServer": true,
-    "debug.allowBreakpointsEverywhere": true
+    "debug.allowBreakpointsEverywhere": true,
+    "extensions.ignoreRecommendations": true,
+    "zig.zls.enabled": "on",
+    "git.openRepositoryInParentFolders": "always"
 }
