@@ -9,8 +9,6 @@ Plug 'tpope/vim-fugitive'                       " git command wrapper
 Plug 'rust-lang/rust.vim'                       " rust language support
 Plug 'ziglang/zig.vim'                          " zig language support
 Plug 'fatih/vim-go'                             " go language support
-Plug 'Tetralux/odin.vim'                        " odin language support
-Plug 'jcorbin/vim-lobster'                      " lobster language support
 Plug 'sedyh/ebitengine-kage-vim'                " Kage shader language support
 Plug 'tikhomirov/vim-glsl'                      " glsl language support
 Plug 'neoclide/coc.nvim', {'branch':'release'}  " vscode-like auto-completion using LSP
@@ -48,6 +46,9 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/]\.(git|hg|svn)$|node_modules|zig-out|zig-cache',
   \ 'file': '\v\.(exe|pdb|so|dll|o|obj|dylib|a)$',
   \ }
+
+" vim-go settings
+let g:go_doc_popup_window = 1
 
 " coc related settings
 source $HOME/.vim/coc-settings.vim

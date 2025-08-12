@@ -11,11 +11,6 @@
             "rootPatterns": ["go.mod"],
             "trace.server": "verbose",
             "filetypes": ["go"]
-        },
-        "odin" : {
-            "command": "ols",
-            "filetypes": ["odin"],
-            "rootPatterns": ["ols.json"]
         }
     }
 }
