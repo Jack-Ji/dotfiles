@@ -11,6 +11,7 @@ Plug 'ziglang/zig.vim'                          " zig language support
 Plug 'fatih/vim-go'                             " go language support
 Plug 'sedyh/ebitengine-kage-vim'                " Kage shader language support
 Plug 'tikhomirov/vim-glsl'                      " glsl language support
+Plug 'keith/swift.vim', { 'for': 'swift' }      " swift language support
 Plug 'neoclide/coc.nvim', {'branch':'release'}  " vscode-like auto-completion using LSP
 Plug 'skanehira/vsession'                       " session manager
 call plug#end()
