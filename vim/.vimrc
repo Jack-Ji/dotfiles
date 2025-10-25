@@ -5,6 +5,7 @@ Plug 'vim-airline/vim-airline'                  " fabulous status bar
 Plug 'ctrlpvim/ctrlp.vim'                       " easy file finding
 Plug 'scrooloose/nerdtree'                      " nerd tree
 Plug 'majutsushi/tagbar'                        " tagbar
+Plug 'skanehira/vsession'                       " session manager
 Plug 'tpope/vim-fugitive'                       " git command wrapper
 Plug 'rust-lang/rust.vim'                       " rust language support
 Plug 'ziglang/zig.vim'                          " zig language support
@@ -12,9 +13,7 @@ Plug 'fatih/vim-go'                             " go language support
 Plug 'sedyh/ebitengine-kage-vim'                " Kage shader language support
 Plug 'tikhomirov/vim-glsl'                      " glsl language support
 Plug 'beyondmarc/hlsl.vim'                      " hlsl language support
-Plug 'keith/swift.vim', { 'for': 'swift' }      " swift language support
 Plug 'neoclide/coc.nvim', {'branch':'release'}  " vscode-like auto-completion using LSP
-Plug 'skanehira/vsession'                       " session manager
 call plug#end()
 
 " basic settings

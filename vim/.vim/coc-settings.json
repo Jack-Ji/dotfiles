@@ -11,10 +11,6 @@
             "rootPatterns": ["go.mod"],
             "trace.server": "verbose",
             "filetypes": ["go"]
-        },
-        "swift": {
-            "command": "sourcekit-lsp",
-            "filetypes": ["swift"]
         }
     }
 }
