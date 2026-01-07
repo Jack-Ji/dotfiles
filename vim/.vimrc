@@ -10,6 +10,7 @@ Plug 'tpope/vim-fugitive'                       " git command wrapper
 Plug 'rust-lang/rust.vim'                       " rust language support
 Plug 'ziglang/zig.vim'                          " zig language support
 Plug 'fatih/vim-go'                             " go language support
+Plug 'dart-lang/dart-vim-plugin'                " dart language support
 Plug 'sedyh/ebitengine-kage-vim'                " Kage shader language support
 Plug 'tikhomirov/vim-glsl'                      " glsl language support
 Plug 'beyondmarc/hlsl.vim'                      " hlsl language support
@@ -50,6 +51,10 @@ let g:ctrlp_custom_ignore = {
 
 " vim-go settings
 let g:go_doc_popup_window = 1
+
+" dart settings
+let g:dart_style_guide = 2
+let g:dart_format_on_save = v:true
 
 " coc related settings
 source $HOME/.vim/coc-settings.vim

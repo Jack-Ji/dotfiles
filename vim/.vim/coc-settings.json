@@ -2,6 +2,11 @@
     "inlayHint.enable": true,
     "semanticTokens.enable": true,
     "languageserver": {
+        "dart" : {
+            "command": "dart",
+            "args": ["language-server", "--client-id", "vim.coc", "--client-version", "1.2"],
+            "filetypes": ["dart"]
+        },
         "zls" : {
             "command": "zls",
             "filetypes": ["zig", "zon"]
