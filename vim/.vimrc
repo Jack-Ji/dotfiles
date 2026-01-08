@@ -49,19 +49,6 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(exe|pdb|so|dll|o|obj|dylib|a)$',
   \ }
 
-" vim-go settings
-let g:go_doc_popup_window = 1
-
-" dart settings
-let g:dart_style_guide = 2
-let g:dart_format_on_save = v:true
-
-" coc related settings
-source $HOME/.vim/coc-settings.vim
-
-" keyboard mappings for vim-go command
-au FileType go nmap <leader>r <Plug>(go-run)
-
 " avoid freezing the vim process forever, see
 " https://github.com/neovim/neovim/issues/6660
 if has("win32") && has("nvim")
@@ -73,3 +60,14 @@ if has("win32") && has("nvim")
   cnoremap <C-z> <nop>
   onoremap <C-z> <nop>
 endif
+
+" coc related settings
+source $HOME/.vim/coc-settings.vim
+
+" vim-go settings
+let g:go_doc_popup_window = 1
+au FileType go nmap <leader>r <Plug>(go-run)
+
+" dart settings
+let g:dart_style_guide = 2
+let g:dart_format_on_save = v:true
