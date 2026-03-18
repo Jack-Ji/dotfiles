@@ -11,6 +11,16 @@
             "command": "zls",
             "filetypes": ["zig", "zon"]
         },
+        "ols" : {
+            "command": "ols",
+            "filetypes": ["odin"]
+        },
+        "phpactor": {
+            "command": "phpactor",
+            "args": ["language-server"],
+            "trace.server": "verbose",
+            "filetypes": ["php"]
+        },
         "go": {
             "command": "gopls",
             "rootPatterns": ["go.mod"],

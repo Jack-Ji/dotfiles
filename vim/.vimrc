@@ -72,3 +72,6 @@ au FileType go nmap <leader>r <Plug>(go-run)
 " dart settings
 let g:dart_style_guide = 2
 let g:dart_format_on_save = v:true
+
+" php settings
+autocmd FileType php set iskeyword+=$
