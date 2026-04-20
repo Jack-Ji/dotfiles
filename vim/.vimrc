@@ -8,7 +8,7 @@ Plug 'majutsushi/tagbar'                        " tagbar
 Plug 'skanehira/vsession'                       " session manager
 Plug 'tpope/vim-fugitive'                       " git command wrapper
 Plug 'rust-lang/rust.vim'                       " rust language support
-Plug 'ziglang/zig.vim'                          " zig language support
+Plug 'https://codeberg.org/ziglang/zig.vim'     " zig language support
 Plug 'Tetralux/odin.vim'                        " odin language support
 Plug 'fatih/vim-go'                             " go language support
 Plug 'dart-lang/dart-vim-plugin'                " dart language support
