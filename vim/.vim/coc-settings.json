@@ -26,6 +26,11 @@
             "rootPatterns": ["go.mod"],
             "trace.server": "verbose",
             "filetypes": ["go"]
+        },
+        "templ": {
+            "command": "templ",
+            "args": ["lsp"],
+            "filetypes": ["templ"]
         }
     }
 }

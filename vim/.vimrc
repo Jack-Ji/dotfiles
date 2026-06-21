@@ -11,6 +11,7 @@ Plug 'rust-lang/rust.vim'                       " rust language support
 Plug 'https://codeberg.org/ziglang/zig.vim'     " zig language support
 Plug 'Tetralux/odin.vim'                        " odin language support
 Plug 'fatih/vim-go'                             " go language support
+Plug 'joerdav/templ.vim'                        " go templ support
 Plug 'dart-lang/dart-vim-plugin'                " dart language support
 Plug 'sedyh/ebitengine-kage-vim'                " Kage shader language support
 Plug 'tikhomirov/vim-glsl'                      " glsl language support
